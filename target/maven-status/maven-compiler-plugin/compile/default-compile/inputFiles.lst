@@ -1,8 +1,0 @@
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/server/HelloWorldServer.java
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/HelloRequest.java
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/GreeterGrpc.java
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/HelloRequestOrBuilder.java
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/client/HelloWorldClient.java
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/HelloReplyOrBuilder.java
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/HelloReply.java
-/Users/jianhui.zong/workspace/resource/github/grpc-java-learning/src/main/java/com/google/grpc/learning/helloworld/HelloWorldProto.java
