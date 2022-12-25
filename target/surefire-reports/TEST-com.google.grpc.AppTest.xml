@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.google.grpc.AppTest" time="0.001" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/resources.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/rt.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/jsse.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/jce.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/charsets.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/jfr.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/cat.jar:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="http.proxyPort" value="7890"/>
+    <property name="user.name" value="jianhui.zong"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="user.language" value="zh"/>
+    <property name="sun.boot.library.path" value="/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib"/>
+    <property name="classworlds.conf" value="/Users/jianhui.zong/.sdkman/candidates/maven/current/bin/m2.conf"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="http.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com|sequoia.apple.com|*.sequoia.apple.com|seed-sequoia.siri.apple.com|*.seed-sequoia.siri.apple.com"/>
+    <property name="java.endorsed.dirs" value="/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/jianhui.zong/.sdkman/candidates/maven/current/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="user.country" value="CN"/>
+    <property name="java.home" value="/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="https.proxyPort" value="7890"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="os.detected.version" value="13.0"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksNonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com|sequoia.apple.com|*.sequoia.apple.com|seed-sequoia.siri.apple.com|*.seed-sequoia.siri.apple.com"/>
+    <property name="ftp.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com|sequoia.apple.com|*.sequoia.apple.com|seed-sequoia.siri.apple.com|*.seed-sequoia.siri.apple.com"/>
+    <property name="user.home" value="/Users/jianhui.zong"/>
+    <property name="socksProxyPort" value="7890"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="library.jansi.path" value="/Users/jianhui.zong/.sdkman/candidates/maven/current/lib/jansi-native"/>
+    <property name="java.library.path" value="/Users/jianhui.zong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.home" value="/Users/jianhui.zong/.sdkman/candidates/maven/current"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -U clean package -X"/>
+    <property name="java.class.path" value="/Users/jianhui.zong/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="os.detected.arch" value="aarch_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="os.detected.classifier" value="osx-aarch_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/hg/v9nx6nlj5nx5k26t121z9msw0000gp/T/"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/jianhui.zong/workspace/resource/github/grpc-java-learning"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.ext.dirs" value="/Users/jianhui.zong/Library/Java/Extensions:/Users/jianhui.zong/.sdkman/candidates/java/8.0.352-zulu/zulu-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="user.dir" value="/Users/jianhui.zong/workspace/resource/github/grpc-java-learning"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="os.detected.version.major" value="13"/>
+    <property name="jdk.vendor.version" value="Zulu 8.66.0.15-CA-macos-aarch64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="os.detected.name" value="osx"/>
+    <property name="os.detected.version.minor" value="0"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase classname="com.google.grpc.AppTest" name="testApp" time="0.001"/>
+</testsuite>
